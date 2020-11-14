@@ -1,0 +1,21 @@
+body {
+  background: white;
+}
+h1 {
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(35, 107, 175);
+  color: white;
+}
+.fa-trash:hover {
+  color: rgb(117, 40, 40);
+  cursor: pointer;
+}
+#popup-form {
+  border: 1px solid black;
+  visibility: hidden;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
