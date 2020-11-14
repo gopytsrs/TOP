@@ -1,0 +1,22 @@
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+}
+div > div {
+  width: 80px;
+  margin: 10px 10px 10px 10px;
+}
+button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#results {
+  margin: auto;
+  height: 100px;
+  text-align: wrap;
+}
+.scores {
+  margin: 10px 20px;
+}

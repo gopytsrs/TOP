@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+body {
+  text-align: center;
+  background: linear-gradient(90deg, rgb(127, 202, 202), rgb(235, 205, 205));
+  font-family: "Balsamiq Sans", cursive;
+}
+.timers {
+  display: grid;
+  grid-template-areas:
+    "word1 word2"
+    "time1 time2";
+}
+.session-timer {
+  grid-area: time1;
+  display: flex;
+  justify-content: center;
+}
+#session {
+  grid-area: word1;
+}
+#break {
+  grid-area: word2;
+}
+.break-timer {
+  grid-area: time2;
+  display: flex;
+  justify-content: center;
+}
+#start {
+  border: 2px solid black;
+  display: inline;
+  padding: 0.5em;
+  background: rgb(79, 114, 79);
+  color: rgb(235, 235, 235);
+}
+#start:hover {
+  animation-name: hover-start;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hover-start {
+  100% {
+    background-color: rgb(70, 170, 70);
+  }
+}

@@ -1,0 +1,90 @@
+.container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.selection {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.items {
+  margin: 10px;
+  text-align: top;
+  font-size: 13px;
+}
+input[type="searchbar"] {
+  width: 582px;
+  height: 42.988px;
+  border-radius: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+input[type="searchbar"]:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.logo {
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-search {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-lang-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#chinese {
+  padding-top: 5px;
+}
+#melayu {
+  padding-top: 8px;
+  font-size: 15px;
+  margin-left: 0px;
+}
+#tamil {
+  font-size: 14px;
+  margin-left: 1px;
+}
+.search-buttons {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.search-buttons:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color :
+  border: 1px solid #c6c6c6;
+  color: #222;
+
+}
+
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: underline;  
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  min-height: 300px;
+  font-size: 40px;
+  grid-template-rows: 150px repeat(4, 100px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-areas:
+    "result result result result"
+    "btn1 btn2 btn3 add"
+    "btn4 btn5 btn6 subtract"
+    "btn7 btn8 btn9 multiply"
+    "btn0 clear equals divide";
+}
+.result {
+  grid-area: result;
+  color: rgb(31, 25, 54);
+  text-align: right;
+  border: 2px solid rgb(39, 18, 18);
+  background-color: rgb(54, 98, 89);
+  font-family: "Orbitron", sans-serif !important;
+}
+.btn-1 {
+  grid-area: btn1;
+}
+.btn-2 {
+  grid-area: btn2;
+}
+.btn-3 {
+  grid-area: btn3;
+}
+.btn-add {
+  grid-area: add;
+}
+.btn-4 {
+  grid-area: btn4;
+}
+.btn-5 {
+  grid-area: btn5;
+}
+.btn-6 {
+  grid-area: btn6;
+}
+.btn-7 {
+  grid-area: btn7;
+}
+.btn-8 {
+  grid-area: btn8;
+}
+.btn-9 {
+  grid-area: btn9;
+}
+.btn-0 {
+  grid-area: btn0;
+}
+.btn-subtract {
+  grid-area: subtract;
+}
+.btn-multiply {
+  grid-area: multiply;
+}
+.btn-divide {
+  grid-area: divide;
+}
+.btn-equals {
+  grid-area: equals;
+  background-color: rgb(194, 90, 5);
+  text-align: center;
+  border: 2px solid rgb(211, 195, 195);
+}
+.btn-equals:hover {
+  animation-name: equals-hover;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}
+.btn-clear {
+  grid-area: clear;
+  background-color: rgb(72, 98, 184);
+  text-align: center;
+  border: 2px solid rgb(211, 195, 195);
+}
+.btn-clear:hover {
+  animation-name: clear-hover;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+.numbers {
+  background-color: rgb(124, 101, 101);
+  text-align: center;
+  border: 2px solid rgb(148, 139, 139);
+}
+.numbers:hover {
+  animation-name: number-hover;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+.operations {
+  background-color: rgb(43, 36, 36);
+  text-align: center;
+  border: 2px solid rgb(211, 195, 195);
+}
+.operations:hover {
+  animation-name: operations-hover;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+body {
+  color: white;
+}
+.calculator div {
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+@keyframes number-hover {
+  100% {
+    background-color: rgb(104, 91, 91);
+    margin: -0.03em;
+  }
+}
+@keyframes clear-hover {
+  100% {
+    background-color: rgb(53, 77, 155);
+    margin: -0.03em;
+  }
+}
+@keyframes equals-hover {
+  100% {
+    background-color: rgb(160, 76, 7);
+    margin: -0.03em;
+  }
+}
+@keyframes operations-hover {
+  100% {
+    background-color: rgb(32, 27, 24);
+    margin: -0.03em;
+  }
+}

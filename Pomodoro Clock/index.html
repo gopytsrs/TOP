@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+    <header><h1>Pomodoro Clock</h1></header>
+    <main class="timers">
+      <div id="session"><h3>Session</h3></div>
+      <div id="break"><h3>Break</h3></div>
+      <div class="session-timer">
+        <button class="add-session">+</button>
+        <div id="session-time">00:00</div>
+        <button class="minus-session">-</button>
+      </div>
+      <div class="break-timer">
+        <button class="add-break">+</button>
+        <div id="break-time">00:00</div>
+        <button class="minus-break">-</button>
+      </div>
+    </main>
+    <h1 id="start">START</h1>
+    <script src="scripts.js"></script>
+  </body>
+</html>
