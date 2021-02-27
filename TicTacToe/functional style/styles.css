@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	text-decoration: 2px rgb(95, 19, 95) wavy underline;
+	font-size: 2.5em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20vw;
+}
+
+.cell {
+	flex: 0 0 25%;
+	height: 25vh;
+	width: 25vw;
+	border: 2px solid rgb(189, 189, 189);
+	font-size: 5vw;
+	text-align: center;
+}
+
+button {
+	width: 5em;
+	align-self: center;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+}
